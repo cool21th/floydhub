@@ -29,3 +29,5 @@ If you don't have GPU, you can use cloud GPU like FloyedHub
     ##To use a different environment
     
     floyd run --gpu --env pytorch {insert-command-here}
+    
+    ex) floyd run --gpu --env tensorflow-1.7 --data ksk0616/datasets/cifar10-data/1:data --tensorboard 'python train.py'
